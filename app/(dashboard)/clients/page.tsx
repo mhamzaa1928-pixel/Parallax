@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Plus, Search } from "lucide-react";
-import ClientForm from "@/components/client/ClientForm";
+import ClientForm from "@/components/clients/ClientForm";
 import { getClients } from "@/services/clientService";
 import { Client } from "@/types/client";
 
